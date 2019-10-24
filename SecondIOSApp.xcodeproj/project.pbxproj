@@ -14,6 +14,10 @@
 		E495931E2361D2830054A56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E495931D2361D2830054A56B /* Assets.xcassets */; };
 		E49593212361D2830054A56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E495931F2361D2830054A56B /* LaunchScreen.storyboard */; };
 		E49593292361D63E0054A56B /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49593282361D63E0054A56B /* Jokes.swift */; };
+		E495932E2361E1E30054A56B /* Astro.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932A2361E1E20054A56B /* Astro.png */; };
+		E495932F2361E1E30054A56B /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932B2361E1E30054A56B /* Squido.png */; };
+		E49593302361E1E30054A56B /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932C2361E1E30054A56B /* Munchie.png */; };
+		E49593312361E1E30054A56B /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932D2361E1E30054A56B /* Fluffy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		E49593202361D2830054A56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49593222361D2830054A56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49593282361D63E0054A56B /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		E495932A2361E1E20054A56B /* Astro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Astro.png; sourceTree = "<group>"; };
+		E495932B2361E1E30054A56B /* Squido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squido.png; sourceTree = "<group>"; };
+		E495932C2361E1E30054A56B /* Munchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Munchie.png; sourceTree = "<group>"; };
+		E495932D2361E1E30054A56B /* Fluffy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluffy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				E495931F2361D2830054A56B /* LaunchScreen.storyboard */,
 				E49593222361D2830054A56B /* Info.plist */,
 				E49593282361D63E0054A56B /* Jokes.swift */,
+				E495932A2361E1E20054A56B /* Astro.png */,
+				E495932D2361E1E30054A56B /* Fluffy.png */,
+				E495932C2361E1E30054A56B /* Munchie.png */,
+				E495932B2361E1E30054A56B /* Squido.png */,
 			);
 			path = SecondIOSApp;
 			sourceTree = "<group>";
@@ -128,7 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E495932F2361E1E30054A56B /* Squido.png in Resources */,
+				E49593302361E1E30054A56B /* Munchie.png in Resources */,
 				E49593212361D2830054A56B /* LaunchScreen.storyboard in Resources */,
+				E49593312361E1E30054A56B /* Fluffy.png in Resources */,
+				E495932E2361E1E30054A56B /* Astro.png in Resources */,
 				E495931E2361D2830054A56B /* Assets.xcassets in Resources */,
 				E495931C2361D2820054A56B /* Main.storyboard in Resources */,
 			);

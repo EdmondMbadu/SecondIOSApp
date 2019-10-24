@@ -18,7 +18,7 @@ class Jokes {
           
           // includes toStringin the jokes array
           
-          jokes.append("What do you call a bear with not teeth ? A gummy bear!")
+          jokes.append("What do you call a bear with no teeth ? A gummy bear!")
           jokes.append("If con is the opposite of progress, it must mean Congress is the opposite of Progress!")
           
           
