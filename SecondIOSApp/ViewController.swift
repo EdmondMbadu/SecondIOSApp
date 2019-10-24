@@ -8,13 +8,29 @@
 
 import UIKit
 
+// this class is an equivalent of the MainActivity Java class in android
+
 class ViewController: UIViewController {
+    
+    // equivalent of the onCreate method in Java Android classes
+    //called when the scene that it controls is
+    // accessed
+    
+    // intialization work is done in this method
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // creating an instance of a Joke
+        let joke = Jokes()
+        
+        // iterating through the jokes array
+        for joke in joke.jokes{
+            // printing out the hokes to the debug area
+            print(joke)
+        }
+        
     }
 
 
 }
-

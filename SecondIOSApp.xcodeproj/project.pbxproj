@@ -13,6 +13,7 @@
 		E495931C2361D2820054A56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E495931A2361D2820054A56B /* Main.storyboard */; };
 		E495931E2361D2830054A56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E495931D2361D2830054A56B /* Assets.xcassets */; };
 		E49593212361D2830054A56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E495931F2361D2830054A56B /* LaunchScreen.storyboard */; };
+		E49593292361D63E0054A56B /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49593282361D63E0054A56B /* Jokes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E495931D2361D2830054A56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49593202361D2830054A56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49593222361D2830054A56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49593282361D63E0054A56B /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E495931D2361D2830054A56B /* Assets.xcassets */,
 				E495931F2361D2830054A56B /* LaunchScreen.storyboard */,
 				E49593222361D2830054A56B /* Info.plist */,
+				E49593282361D63E0054A56B /* Jokes.swift */,
 			);
 			path = SecondIOSApp;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				E49593192361D2820054A56B /* ViewController.swift in Sources */,
 				E49593152361D2820054A56B /* AppDelegate.swift in Sources */,
+				E49593292361D63E0054A56B /* Jokes.swift in Sources */,
 				E49593172361D2820054A56B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.edmond.SecondIOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.edmond.SecondIOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
