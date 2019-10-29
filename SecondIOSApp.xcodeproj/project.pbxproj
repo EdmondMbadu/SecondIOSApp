@@ -18,6 +18,8 @@
 		E495932F2361E1E30054A56B /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932B2361E1E30054A56B /* Squido.png */; };
 		E49593302361E1E30054A56B /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932C2361E1E30054A56B /* Munchie.png */; };
 		E49593312361E1E30054A56B /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = E495932D2361E1E30054A56B /* Fluffy.png */; };
+		E4959333236878D50054A56B /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4959332236878D50054A56B /* NewViewController.swift */; };
+		E4959335236881260054A56B /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4959334236881260054A56B /* NewTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		E495932B2361E1E30054A56B /* Squido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squido.png; sourceTree = "<group>"; };
 		E495932C2361E1E30054A56B /* Munchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Munchie.png; sourceTree = "<group>"; };
 		E495932D2361E1E30054A56B /* Fluffy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluffy.png; sourceTree = "<group>"; };
+		E4959332236878D50054A56B /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		E4959334236881260054A56B /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				E495932D2361E1E30054A56B /* Fluffy.png */,
 				E495932C2361E1E30054A56B /* Munchie.png */,
 				E495932B2361E1E30054A56B /* Squido.png */,
+				E4959332236878D50054A56B /* NewViewController.swift */,
+				E4959334236881260054A56B /* NewTableViewController.swift */,
 			);
 			path = SecondIOSApp;
 			sourceTree = "<group>";
@@ -159,6 +165,8 @@
 			files = (
 				E49593192361D2820054A56B /* ViewController.swift in Sources */,
 				E49593152361D2820054A56B /* AppDelegate.swift in Sources */,
+				E4959335236881260054A56B /* NewTableViewController.swift in Sources */,
+				E4959333236878D50054A56B /* NewViewController.swift in Sources */,
 				E49593292361D63E0054A56B /* Jokes.swift in Sources */,
 				E49593172361D2820054A56B /* SceneDelegate.swift in Sources */,
 			);
